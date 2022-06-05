@@ -1,0 +1,71 @@
+    /* links */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+
+.logo{
+    font-family: 'Aclonica';
+    font-size: 25px;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+
+    /* ajustar a cor do titulo */
+.logo a{
+    color: orange;
+    text-decoration: none;
+}
+
+
+.nav_bar{
+    font-family: 'poppins';
+    font-size: 20px;
+    float: right;
+    list-style: none;
+}
+
+.nav_bar li{
+    display: inline-block; 
+}
+
+   /* ajustar a cor da barra de nav */
+.nav_bar li a{
+    padding: 15px;
+    color: antiquewhite;
+}
+
+.nav_bar li a:hover{
+    background: rgba(241, 159, 6, 0.962);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    border-width: auto;
+}
+
+.carousel-item img{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+    filter: brightness(70%);
+}
+
+.box{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 50px;
+}
